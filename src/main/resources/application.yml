@@ -1,0 +1,18 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /springboot_test1
+
+logging:
+  file:
+    name: logback-spring.xml
+
+spring:
+  datasource:
+    driver-class-name: com.ibm.db2.jcc.DB2Driver
+    url: jdbc:db2://127.0.0.1:50000/DBPRODE4:currentSchema=IPLAT;
+    username: Axin
+    password: a728271958
+
+mybatis:
+  mapper-locations: classpath:com/han/springboot_test1/mapper/*.xml
