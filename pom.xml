@@ -57,10 +57,17 @@
         </dependency>
 
         <!--引入DB2驱动包-->
-        <dependency>
+        <!--<dependency>
             <groupId>com.ibm.db2</groupId>
             <artifactId>jcc</artifactId>
             <version>11.5.5.0</version>
+        </dependency>-->
+
+        <!--mysql驱动包-->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.22</version>
         </dependency>
 
         <!--json-->

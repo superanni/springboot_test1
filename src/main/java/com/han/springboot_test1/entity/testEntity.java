@@ -10,6 +10,6 @@ public class testEntity {
 
     private String userName;
 
-    private String userSex;
+    private String sex;
 
 }

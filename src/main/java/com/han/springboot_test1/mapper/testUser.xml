@@ -10,7 +10,7 @@
 
     <!-- 对应查数据 -->
     <select id="getUsers" resultMap="userResultMap">
-        SELECT USER_ID, USER_NAME, SEX FROM BSAMRAMAYY.T_ADS_WH_NB0002
+        SELECT USER_ID, USER_NAME, SEX FROM ls_db.TEST
     </select>
 
 </mapper>

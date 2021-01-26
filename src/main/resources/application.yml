@@ -7,12 +7,19 @@ logging:
   file:
     name: logback-spring.xml
 
+#spring:
+#  datasource:
+#    driver-class-name: com.ibm.db2.jcc.DB2Driver
+#    url: jdbc:db2://127.0.0.1:50000/DBPRODE4:currentSchema=IPLAT;
+#    username: Axin
+#    password: a728271958
 spring:
   datasource:
-    driver-class-name: com.ibm.db2.jcc.DB2Driver
-    url: jdbc:db2://127.0.0.1:50000/DBPRODE4:currentSchema=IPLAT;
-    username: Axin
-    password: a728271958
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    platform: mysql
+    url: jdbc:mysql://123.57.243.37:3306/goods?useUnicode=true&characterEncoding=UTF-8&useUnicode=true&useSSL=false&autoReconnect=true&failOverReadOnly=false&zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=GMT%2B8
+    username: root
+    password:  root
 
 mybatis:
   mapper-locations: classpath:com/han/springboot_test1/mapper/*.xml
